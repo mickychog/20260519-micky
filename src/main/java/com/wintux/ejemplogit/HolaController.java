@@ -10,7 +10,7 @@ public class HolaController {
     private String password;
     @GetMapping("/hola")
     public String saludar() {
-        return "Hola desde Spring Boot!!";
+        return "Hola desde Spring Boot  Micky!!";
     }
     @GetMapping("/adios")
     public String despedirse() {
